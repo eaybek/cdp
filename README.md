@@ -9,6 +9,6 @@ cd plus unix builtin cd komutuna yapılmış iki eklemeden ibarettir
 `cd $HOME/.ea`  
 `git clone https://github.com/eaybek/cdp`  
 for zsh  
-`echo "source $HOME/.ea/cdp/cdp.bash.zsh.lib.sh" >> $HOME/.zshrc`  
+`echo "source $HOME/.ea/cdp/cdp.zsh.lib.sh" >> $HOME/.zshrc`  
 for bash  
-`echo "source $HOME/.ea/cdp/cdp.bash.zsh.lib.sh" >> $HOME/.bashrc`  
+`echo "source $HOME/.ea/cdp/cdp.bash.lib.sh" >> $HOME/.bashrc`  
