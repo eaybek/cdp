@@ -2,7 +2,7 @@ get_y_n(){
 	while true
 	do
 		read value
-		value=$value:l
+		value=$(echo $value | tr '[:upper:]' '[:lower:]')
 		if [[ $value == "yes" || $value == "y" ]]
 		then
 			return 1
