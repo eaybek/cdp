@@ -10,5 +10,5 @@ cd plus unix builtin cd komutuna yapılmış iki eklemeden ibarettir
 `git clone https://github.com/eaybek/cdp`  
 for zsh  
 `echo "source $HOME/.ea/cdp/cdp.bash.zsh.lib.sh" >> $HOME/.zshrc`  
-for bash
+for bash  
 `echo "source $HOME/.ea/cdp/cdp.bash.zsh.lib.sh" >> $HOME/.bashrc`  
